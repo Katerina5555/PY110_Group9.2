@@ -23,13 +23,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Sat, 20 Nov 2021 10:45:25 UTC
+  time: Sat, 20 Nov 2021 13:19:06 UTC
   actual: |
-    ['U', 'u']
-    ['F', 'f']
-    ['A', 'a']
-    ['B', 'b']
-    ['I', 'i']
-    ['O', 'o']
-    ['E', 'e']
+    {('O', 'o'), ('F', 'f'), ('B', 'b'), ('I', 'i'), ('A', 'a'), ('E', 'e'), ('U', 'u')}
 record: -1

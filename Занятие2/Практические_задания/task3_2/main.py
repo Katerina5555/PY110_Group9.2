@@ -1,26 +1,26 @@
 import time
 
-
 def time_decorator(fn):
     print("Этот код будет выведен в момент декорирования функции")
 
     def wrapper(*args, **kwargs):
         print("Этот код будет выполняться перед каждым вызовом функции")
 
-        # TODO зафиксировать время до начала выполнения функции
+        start = time.perf_counter()
         result = fn(*args, **kwargs)
-        # TODO зафиксировать время после выполнения
+        finish = time.perf_counter()
+        print(finish - start)
 
         print("Этот код будет выполняться после каждого вызова функции")
         return result
     return wrapper
 
 
-# TODO задекорировать функцию
+# @time_decorator
 def pow_(a, n):
     return pow(a, n)
 
-
+pow_with_decorator = time_decorator(pow_)
 if __name__ == "__main__":
     print(pow_)
     print("=" * 25)
@@ -29,3 +29,6 @@ if __name__ == "__main__":
     print("=" * 25)
 
     print(pow_(4, 4))
+    print("=" * 25)
+
+    print(pow_with_decorator(4, 4))
