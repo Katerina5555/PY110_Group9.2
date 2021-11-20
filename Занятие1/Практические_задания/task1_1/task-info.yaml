@@ -11,8 +11,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 170
-    length: 112
+  - offset: 95
+    length: 331
     placeholder_text: '[get_distance(point) for point in points]  # TODO записать
       через map'
     initial_state:
@@ -44,5 +44,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 11:13:15 UTC
+  time: Sat, 20 Nov 2021 10:21:16 UTC
 record: -1
