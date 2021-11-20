@@ -23,7 +23,13 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Sat, 20 Nov 2021 10:33:18 UTC
+  time: Sat, 20 Nov 2021 10:45:25 UTC
   actual: |
-    ['Sheridan Gentry', 'Laila Mckee', 'Ahsan Rivas', 'Conna Gonzalez']
+    ['U', 'u']
+    ['F', 'f']
+    ['A', 'a']
+    ['B', 'b']
+    ['I', 'i']
+    ['O', 'o']
+    ['E', 'e']
 record: -1
