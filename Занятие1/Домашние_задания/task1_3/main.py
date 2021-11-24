@@ -19,7 +19,7 @@ def sum_(word: tuple) -> int:
 
 
 def task(list_tuples: list) -> list:
-    return list(map(sum_, list_tuples))     # - передаем ссылку на функцию (без скобок) [sum_(word) for word in list_tuple]
+    return list(map(sum_, list_tuples))
 
 
 if __name__ == "__main__":

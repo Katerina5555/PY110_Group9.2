@@ -23,7 +23,6 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Sat, 20 Nov 2021 13:19:06 UTC
-  actual: |
-    {('O', 'o'), ('F', 'f'), ('B', 'b'), ('I', 'i'), ('A', 'a'), ('E', 'e'), ('U', 'u')}
+  time: Wed, 24 Nov 2021 18:51:06 UTC
+  actual: <no output>
 record: -1

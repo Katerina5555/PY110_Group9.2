@@ -1,7 +1,10 @@
 # Напишите программу Python, которая преобразует все символы в верхний и нижний
 # регистры и удаляет повторяющиеся буквы из заданной последовательности.
 # Используйте функцию map ().
+# INPUT:  {'U', 'f', 'a', 'b', 'i', 'o', 'E'}
+# OUTPUT: {('B', 'b'), ('A', 'a'), ('U', 'u'), ('I', 'i'), ('O', 'o'), ('E', 'e'), ('F', 'f')}
 
+#
 # def list_map(words: list) -> list:
 #     return list(map(str.capitalize, words))
 #
@@ -14,9 +17,9 @@
 #     list_low = list_map_2(list_words)
 #
 #     for letter_1, letter_2 in zip(list_cap, list_low):
-#         print(list((letter_1 + letter_2)))
+#         print(list(letter_1 + letter_2), end=", ")
 #
 if __name__ == "__main__":
     # task()
-    list_words = ['U', 'f', 'a', 'b', 'i', 'o', 'E']
+    list_words = ['U', 'f', 'a', 'b', 'i', 'o', 'E', 'i']
     print(set(map(lambda x: (x.upper(), x.lower()), set(list_words))))
