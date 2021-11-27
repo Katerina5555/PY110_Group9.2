@@ -1,6 +1,6 @@
 def task(number: list) -> int:
-    gen_exp = (2 * 2 ** i for i in number)
-    return sum(gen_exp)
+    gen_exp = (5 * 4 ** i for i in number)
+    return list(gen_exp)
 
 
 if __name__ == "__main__":
