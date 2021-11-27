@@ -3,11 +3,13 @@ import json
 
 def to_json_string(python_object) -> str:
     json_string = json.dumps(python_object)  # метод dumps сериализует объект в JSON строку
+    # print(type(json_string))
     return json_string
 
 
 def from_json_string(json_string: str):
     python_object = json.loads(json_string)  # метод loads десериализует из JSON строки в python объект
+    # print(type(python_object))
     return python_object
 
 

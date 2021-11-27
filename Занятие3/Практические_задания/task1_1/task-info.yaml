@@ -21,16 +21,16 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 256
-    length: 77
+  - offset: 206
+    length: 215
     placeholder_text: '# TODO c помощью метода строки strip очистить строку от непечатыемых
       символов'
     initial_state:
       length: 77
       offset: 256
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: line = line.strip()
   text: |
     def task():
@@ -47,5 +47,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 27 Nov 2021 11:13:22 UTC
 record: -1
