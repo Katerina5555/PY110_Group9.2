@@ -1,3 +1,5 @@
+# Найти вариенты отбора IP4
+
 import re
 
 ip4 = re.compile(r"""

@@ -1,5 +1,6 @@
 def output_type_int(fn):
     def wrapper(*args):
+        for i in args:
         result = fn(*args)
         if not isinstance(result, int):
             raise TypeError(f"Результатом выполнения функции {fn} должно быть число")

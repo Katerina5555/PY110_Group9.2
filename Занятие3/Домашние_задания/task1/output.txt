@@ -1,1 +1,0 @@
-<_io.TextIOWrapper name='input1.txt' mode='r' encoding='cp1251'>+<_io.TextIOWrapper name='input1.txt' mode='r' encoding='cp1251'>
